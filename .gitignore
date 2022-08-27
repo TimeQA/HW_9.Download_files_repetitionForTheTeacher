@@ -1,4 +1,6 @@
 HELP.md
+repetitionForTheTeacherSelenideTest.java
+repetitionForTheTeacherFileParseTest.java
 target/
 build/
 !.mvn/wrapper/maven-wrapper.jar
