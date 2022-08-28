@@ -5,9 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FilterInputStream;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -15,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$$;
 import static java.nio.charset.StandardCharsets.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class repetitionForTheTeacherSelenideTest {
+public class RepetitionForTheTeacherSelenideTest {
 
     @Test
     void downloadTest() throws Exception {
